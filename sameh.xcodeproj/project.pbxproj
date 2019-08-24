@@ -15,6 +15,13 @@
 		5C4BF9782308D9990033C370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C4BF9762308D9990033C370 /* LaunchScreen.storyboard */; };
 		5C4BF9832308D9990033C370 /* samehTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4BF9822308D9990033C370 /* samehTests.swift */; };
 		5C4BF98E2308D99A0033C370 /* samehUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4BF98D2308D99A0033C370 /* samehUITests.swift */; };
+		5C4BF99E2308DF7D0033C370 /* CardSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4BF99B2308DF7C0033C370 /* CardSliderViewController.swift */; };
+		5C4BF99F2308DF7D0033C370 /* CardTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4BF99C2308DF7D0033C370 /* CardTitleView.swift */; };
+		5C4BF9A02308DF7D0033C370 /* CardSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4BF99D2308DF7D0033C370 /* CardSliderCell.swift */; };
+		5C4BF9A42308DF880033C370 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4BF9A12308DF880033C370 /* RatingView.swift */; };
+		5C4BF9A52308DF880033C370 /* CardsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4BF9A22308DF880033C370 /* CardsLayout.swift */; };
+		5C4BF9A62308DF880033C370 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4BF9A32308DF880033C370 /* Extensions.swift */; };
+		5C4BF9A82308DF910033C370 /* card.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C4BF9A72308DF910033C370 /* card.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		5C4BF9892308D99A0033C370 /* samehUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = samehUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C4BF98D2308D99A0033C370 /* samehUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = samehUITests.swift; sourceTree = "<group>"; };
 		5C4BF98F2308D99A0033C370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C4BF99B2308DF7C0033C370 /* CardSliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardSliderViewController.swift; path = Carthage/Checkouts/CardSlider/CardSlider/CardSlider/Public/CardSliderViewController.swift; sourceTree = SOURCE_ROOT; };
+		5C4BF99C2308DF7D0033C370 /* CardTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardTitleView.swift; path = Carthage/Checkouts/CardSlider/CardSlider/CardSlider/Public/CardTitleView.swift; sourceTree = SOURCE_ROOT; };
+		5C4BF99D2308DF7D0033C370 /* CardSliderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardSliderCell.swift; path = Carthage/Checkouts/CardSlider/CardSlider/CardSlider/Public/CardSliderCell.swift; sourceTree = SOURCE_ROOT; };
+		5C4BF9A12308DF880033C370 /* RatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingView.swift; path = Carthage/Checkouts/CardSlider/CardSlider/CardSlider/Private/RatingView.swift; sourceTree = SOURCE_ROOT; };
+		5C4BF9A22308DF880033C370 /* CardsLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardsLayout.swift; path = Carthage/Checkouts/CardSlider/CardSlider/CardSlider/Private/CardsLayout.swift; sourceTree = SOURCE_ROOT; };
+		5C4BF9A32308DF880033C370 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Carthage/Checkouts/CardSlider/CardSlider/CardSlider/Private/Extensions.swift; sourceTree = SOURCE_ROOT; };
+		5C4BF9A72308DF910033C370 /* card.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = card.storyboard; path = Carthage/Checkouts/CardSlider/CardSlider/CardSlider/Private/card.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +113,9 @@
 		5C4BF96A2308D9950033C370 /* sameh */ = {
 			isa = PBXGroup;
 			children = (
+				5C4C1E8B23112B47005D5A23 /* Card VC */,
 				5C4BF96B2308D9950033C370 /* AppDelegate.swift */,
+				5C4BF9A72308DF910033C370 /* card.storyboard */,
 				5C4BF96D2308D9950033C370 /* SceneDelegate.swift */,
 				5C4BF96F2308D9950033C370 /* ViewController.swift */,
 				5C4BF9712308D9950033C370 /* Main.storyboard */,
@@ -126,6 +142,19 @@
 				5C4BF98F2308D99A0033C370 /* Info.plist */,
 			);
 			path = samehUITests;
+			sourceTree = "<group>";
+		};
+		5C4C1E8B23112B47005D5A23 /* Card VC */ = {
+			isa = PBXGroup;
+			children = (
+				5C4BF99D2308DF7D0033C370 /* CardSliderCell.swift */,
+				5C4BF99B2308DF7C0033C370 /* CardSliderViewController.swift */,
+				5C4BF9A22308DF880033C370 /* CardsLayout.swift */,
+				5C4BF9A32308DF880033C370 /* Extensions.swift */,
+				5C4BF9A12308DF880033C370 /* RatingView.swift */,
+				5C4BF99C2308DF7D0033C370 /* CardTitleView.swift */,
+			);
+			path = "Card VC";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C4BF9A82308DF910033C370 /* card.storyboard in Resources */,
 				5C4BF9782308D9990033C370 /* LaunchScreen.storyboard in Resources */,
 				5C4BF9752308D9990033C370 /* Assets.xcassets in Resources */,
 				5C4BF9732308D9950033C370 /* Main.storyboard in Resources */,
@@ -260,8 +290,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C4BF9702308D9950033C370 /* ViewController.swift in Sources */,
+				5C4BF9A62308DF880033C370 /* Extensions.swift in Sources */,
+				5C4BF99F2308DF7D0033C370 /* CardTitleView.swift in Sources */,
+				5C4BF99E2308DF7D0033C370 /* CardSliderViewController.swift in Sources */,
 				5C4BF96C2308D9950033C370 /* AppDelegate.swift in Sources */,
+				5C4BF9A02308DF7D0033C370 /* CardSliderCell.swift in Sources */,
 				5C4BF96E2308D9950033C370 /* SceneDelegate.swift in Sources */,
+				5C4BF9A42308DF880033C370 /* RatingView.swift in Sources */,
+				5C4BF9A52308DF880033C370 /* CardsLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
